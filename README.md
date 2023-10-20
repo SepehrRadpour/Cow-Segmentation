@@ -30,7 +30,7 @@ pip install -r requirements.txt
 3. Run the script:
 
 ```bash
-python model.py
+python CowSegmentation.py
 ```
 
 The script will process the video, detect cows using YOLOv5, draw bounding boxes around them, and save the output video.
