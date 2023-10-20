@@ -27,7 +27,7 @@ def detect_cows(model, video_path, output_path):
 
         for _, cow in cows.iterrows():
             xmin, ymin, xmax, ymax = cow[['xmin', 'ymin', 'xmax', 'ymax']]
-            cv2.rectangle(frame, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (0, 255, 0), 2)
+            cv2.rectangle(frame, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (0, 255, 0), 1)
 
         out.write(frame)
 
