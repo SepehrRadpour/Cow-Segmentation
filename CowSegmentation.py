@@ -31,7 +31,7 @@ def detect_cows(model, video_path, output_path):
 
         out.write(frame)
 
-         cv2.imshow("Object Detection", frame)
+        cv2.imshow("Object Detection", frame)
 
     video.release()
     out.release()
